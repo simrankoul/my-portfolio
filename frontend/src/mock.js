@@ -1,8 +1,8 @@
 export const portfolioData = {
   personal: {
     name: "Alex Thompson",
-    title: "Full Stack Developer",
-    tagline: "Building exceptional digital experiences with modern technologies",
+    title: "Project Coordinator & Manager",
+    tagline: "Orchestrating success through strategic planning and seamless team collaboration",
     email: "alex.thompson@email.com",
     phone: "+1 (555) 123-4567",
     location: "San Francisco, CA",
@@ -12,20 +12,20 @@ export const portfolioData = {
   },
   
   about: {
-    summary: "Passionate Full Stack Developer with 5+ years of experience crafting scalable web applications. Specialized in React, Node.js, and cloud technologies. I thrive on solving complex problems and building products that make a real impact. Currently seeking opportunities to contribute to innovative teams pushing the boundaries of technology.",
+    summary: "Results-driven Project Coordinator with 6+ years of experience delivering complex projects on time and within budget. Expert in Agile methodologies, stakeholder management, and cross-functional team leadership. Proven track record of improving operational efficiency and driving organizational success. Currently seeking opportunities to leverage my project management expertise in dynamic, growth-oriented environments.",
     highlights: [
-      "5+ years of professional development experience",
-      "Led development of 3 successful product launches",
-      "Contributed to open-source projects with 10k+ stars",
-      "Mentored 8+ junior developers"
+      "Successfully coordinated 25+ projects worth $5M+ in total value",
+      "Improved project delivery timelines by 35% through process optimization",
+      "Managed cross-functional teams of up to 20 members",
+      "PMP Certified with expertise in Agile and Waterfall methodologies"
     ]
   },
   
   skills: [
-    { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux"] },
-    { category: "Backend", items: ["Node.js", "Python", "FastAPI", "PostgreSQL", "MongoDB"] },
-    { category: "DevOps", items: ["Docker", "AWS", "CI/CD", "Kubernetes", "GitHub Actions"] },
-    { category: "Tools", items: ["Git", "Figma", "Jira", "VS Code", "Postman"] }
+    { category: "Project Management", items: ["Agile/Scrum", "Waterfall", "Risk Management", "Budget Planning", "Resource Allocation"] },
+    { category: "Leadership", items: ["Team Coordination", "Stakeholder Management", "Conflict Resolution", "Strategic Planning", "Change Management"] },
+    { category: "Tools & Software", items: ["Jira", "Asana", "Microsoft Project", "Trello", "Confluence"] },
+    { category: "Core Competencies", items: ["Communication", "Time Management", "Problem Solving", "Data Analysis", "Process Improvement"] }
   ],
   
   experience: [
