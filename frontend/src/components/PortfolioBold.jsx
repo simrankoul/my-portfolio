@@ -185,7 +185,7 @@ const PortfolioBold = () => {
           <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Skills & Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {portfolioData.skills.map((skillGroup, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl">
+              <div key={index} className="bg-black rounded-3xl p-8 border border-purple-500/30 shadow-xl">
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-6 flex items-center">
                   <Target size={24} className="mr-3 text-purple-400" />
                   {skillGroup.category}
