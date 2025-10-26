@@ -76,42 +76,42 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "EcoTrack - Sustainability App",
-      description: "Mobile-first web application helping users track and reduce their carbon footprint. Features real-time data visualization and personalized recommendations.",
-      technologies: ["React", "Node.js", "MongoDB", "Chart.js", "AWS"],
+      title: "Enterprise CRM Implementation",
+      description: "Led the successful deployment of company-wide CRM system serving 500+ employees across 3 locations. Managed vendor relationships, training programs, and change management initiatives.",
+      technologies: ["Salesforce", "Project Management", "Change Management", "Training", "Stakeholder Engagement"],
       highlights: [
-        "10k+ active users within 3 months of launch",
-        "Featured in TechCrunch as 'App of the Week'",
-        "Reduced average user carbon footprint by 25%"
+        "Completed 6-month project 2 weeks ahead of schedule",
+        "Achieved 95% user adoption rate within first quarter",
+        "Reduced customer response time by 40%"
       ],
-      link: "https://ecotrack.example.com",
-      github: "https://github.com/example/ecotrack"
+      link: "https://crm-project.example.com",
+      github: "https://github.com/example/crm-docs"
     },
     {
       id: 2,
-      title: "DevCollab - Developer Community Platform",
-      description: "Open-source collaboration platform connecting developers worldwide. Includes real-time code sharing, video calls, and project management tools.",
-      technologies: ["Next.js", "TypeScript", "PostgreSQL", "WebRTC", "Docker"],
+      title: "Product Launch Coordination",
+      description: "Coordinated cross-functional teams (Marketing, Engineering, Sales) for successful launch of flagship product feature. Managed timelines, resources, and stakeholder communications.",
+      technologies: ["Agile", "Jira", "Confluence", "Budget Management", "Cross-functional Leadership"],
       highlights: [
-        "5k+ GitHub stars and 200+ contributors",
-        "Processing 1M+ API requests daily",
-        "Used by developers in 50+ countries"
+        "Launch reached 10K users in first month (150% of target)",
+        "Coordinated 15+ team members across 4 departments",
+        "Maintained zero budget variance throughout project"
       ],
-      link: "https://devcollab.example.com",
-      github: "https://github.com/example/devcollab"
+      link: "https://product-launch.example.com",
+      github: "https://github.com/example/launch-plan"
     },
     {
       id: 3,
-      title: "SmartFinance - Personal Finance Manager",
-      description: "Intuitive budgeting and expense tracking application with AI-powered insights and financial goal setting.",
-      technologies: ["React Native", "Python", "FastAPI", "TensorFlow", "Stripe"],
+      title: "Process Optimization Initiative",
+      description: "Led organization-wide initiative to streamline project workflows and improve operational efficiency. Implemented new tools, created documentation, and trained 50+ staff members.",
+      technologies: ["Lean Six Sigma", "Process Mapping", "Training & Development", "KPI Tracking", "Documentation"],
       highlights: [
-        "Helped users save average of $500/month",
-        "4.8/5 star rating on app stores",
-        "Automated categorization with 95% accuracy"
+        "Reduced project turnaround time by 35%",
+        "Improved team productivity scores by 28%",
+        "Created reusable templates adopted company-wide"
       ],
-      link: "https://smartfinance.example.com",
-      github: "https://github.com/example/smartfinance"
+      link: "https://process-optimization.example.com",
+      github: "https://github.com/example/process-docs"
     }
   ],
   
