@@ -32,43 +32,43 @@ export const portfolioData = {
     {
       id: 1,
       company: "TechCorp Solutions",
-      role: "Senior Full Stack Developer",
+      role: "Senior Project Coordinator",
       duration: "Jan 2022 - Present",
       location: "San Francisco, CA",
-      description: "Leading development of enterprise SaaS platform serving 50k+ users.",
+      description: "Leading coordination of enterprise digital transformation initiatives with cross-functional teams.",
       achievements: [
-        "Architected and built microservices infrastructure reducing API latency by 40%",
-        "Implemented real-time collaboration features using WebSocket technology",
-        "Mentored team of 4 developers and conducted code reviews",
-        "Reduced deployment time by 60% through CI/CD pipeline optimization"
+        "Managed portfolio of 12+ concurrent projects with combined budget of $3M",
+        "Reduced project delivery time by 35% through implementation of Agile practices",
+        "Coordinated communication between 5 departments and 50+ stakeholders",
+        "Implemented project tracking system that improved visibility and accountability by 60%"
       ]
     },
     {
       id: 2,
       company: "StartupHub Inc",
-      role: "Full Stack Developer",
+      role: "Project Coordinator",
       duration: "Jun 2020 - Dec 2021",
       location: "Remote",
-      description: "Developed customer-facing web applications for B2B SaaS startup.",
+      description: "Coordinated product development projects for fast-paced B2B SaaS startup.",
       achievements: [
-        "Built responsive React applications with 99.9% uptime",
-        "Integrated third-party APIs including Stripe, SendGrid, and Twilio",
-        "Improved page load performance by 55% through code optimization",
-        "Collaborated with design team to implement pixel-perfect UI components"
+        "Successfully delivered 8 major product releases on time and under budget",
+        "Facilitated daily standups, sprint planning, and retrospectives for 3 teams",
+        "Improved stakeholder satisfaction scores from 72% to 94% through enhanced communication",
+        "Created comprehensive project documentation reducing onboarding time by 40%"
       ]
     },
     {
       id: 3,
       company: "Digital Innovations",
-      role: "Junior Developer",
+      role: "Project Assistant",
       duration: "Aug 2019 - May 2020",
       location: "New York, NY",
-      description: "Contributed to web development projects for diverse client portfolio.",
+      description: "Supported project managers in coordinating client projects and internal initiatives.",
       achievements: [
-        "Developed responsive websites using modern JavaScript frameworks",
-        "Participated in agile development process and daily standups",
-        "Fixed 100+ bugs and implemented new features across multiple projects",
-        "Gained expertise in RESTful API development and database design"
+        "Assisted in managing 15+ client projects with 100% on-time delivery rate",
+        "Maintained project schedules and tracked milestones using MS Project and Jira",
+        "Coordinated meetings, prepared agendas, and documented action items",
+        "Contributed to process improvement initiatives that reduced admin overhead by 25%"
       ]
     }
   ],
