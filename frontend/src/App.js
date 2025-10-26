@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import DesignComparison from './components/DesignComparison';
+import PortfolioBold from './components/PortfolioBold';
 
 function App() {
   return (
     <div className="App">
-      <DesignComparison />
+      <PortfolioBold />
     </div>
   );
 }
