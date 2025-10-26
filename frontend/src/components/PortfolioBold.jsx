@@ -91,15 +91,15 @@ const PortfolioBold = () => {
       {/* About Section */}
       <section id="about" className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-12 bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">About Me</h2>
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-emerald-500/30 shadow-2xl">
+          <h2 className="text-5xl md:text-6xl font-black mb-12 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">About Me</h2>
+          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-blue-500/30 shadow-2xl">
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
               {portfolioData.about.summary}
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {portfolioData.about.highlights.map((highlight, index) => (
-                <div key={index} className="flex items-start space-x-3 p-4 bg-emerald-500/10 rounded-xl border border-emerald-500/20">
-                  <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></div>
+                <div key={index} className="flex items-start space-x-3 p-4 bg-blue-500/10 rounded-xl border border-blue-500/20">
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-300">{highlight}</p>
                 </div>
               ))}
