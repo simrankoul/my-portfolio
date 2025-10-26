@@ -203,7 +203,7 @@ const PortfolioBold = () => {
 
           {/* Education & Certifications */}
           <div className="grid md:grid-cols-2 gap-8 mt-8">
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl">
+            <div className="bg-black rounded-3xl p-8 border border-purple-500/30 shadow-xl">
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-6 flex items-center">
                 <GraduationCap size={24} className="mr-3 text-purple-400" />
                 Education
@@ -218,7 +218,7 @@ const PortfolioBold = () => {
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl">
+            <div className="bg-black rounded-3xl p-8 border border-purple-500/30 shadow-xl">
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-6 flex items-center">
                 <Award size={24} className="mr-3 text-purple-400" />
                 Certifications
