@@ -147,7 +147,7 @@ const PortfolioBold = () => {
           <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioData.projects.map((project) => (
-              <div key={project.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 border border-purple-500/30 shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 hover:scale-105 flex flex-col">
+              <div key={project.id} className="bg-black rounded-3xl p-6 border border-purple-500/30 shadow-xl hover:shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105 flex flex-col">
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-4">{project.title}</h3>
                 <p className="text-gray-400 mb-6 flex-grow">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
