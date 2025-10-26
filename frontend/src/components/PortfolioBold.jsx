@@ -91,15 +91,15 @@ const PortfolioBold = () => {
       {/* About Section */}
       <section id="about" className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-12 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">About Me</h2>
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-blue-500/30 shadow-2xl">
+          <h2 className="text-5xl md:text-6xl font-black mb-12 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">About Me</h2>
+          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-purple-500/30 shadow-2xl">
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
               {portfolioData.about.summary}
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {portfolioData.about.highlights.map((highlight, index) => (
-                <div key={index} className="flex items-start space-x-3 p-4 bg-blue-500/10 rounded-xl border border-blue-500/20">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                <div key={index} className="flex items-start space-x-3 p-4 bg-purple-500/10 rounded-xl border border-purple-500/20">
+                  <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-300">{highlight}</p>
                 </div>
               ))}
@@ -111,16 +111,16 @@ const PortfolioBold = () => {
       {/* Experience Section */}
       <section id="experience" className="py-24 px-6 bg-gray-900/50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Experience</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Experience</h2>
           <div className="space-y-8">
             {portfolioData.experience.map((exp) => (
-              <div key={exp.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-[1.02]">
+              <div key={exp.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 hover:scale-[1.02]">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">{exp.role}</h3>
+                    <h3 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">{exp.role}</h3>
                     <p className="text-xl text-gray-300 mt-2 font-semibold">{exp.company}</p>
                   </div>
-                  <div className="text-blue-400 text-sm font-bold bg-blue-500/10 px-4 py-2 rounded-full border border-blue-500/30">{exp.duration}</div>
+                  <div className="text-purple-400 text-sm font-bold bg-purple-500/10 px-4 py-2 rounded-full border border-purple-500/30">{exp.duration}</div>
                 </div>
                 <div className="flex items-center text-gray-400 text-sm mb-4">
                   <MapPin size={16} className="mr-1" />
@@ -130,7 +130,7 @@ const PortfolioBold = () => {
                 <ul className="space-y-3">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="flex items-start space-x-3">
-                      <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-300">{achievement}</span>
                     </li>
                   ))}
@@ -144,15 +144,15 @@ const PortfolioBold = () => {
       {/* Projects Section */}
       <section id="projects" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Featured Projects</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioData.projects.map((project) => (
-              <div key={project.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 border border-blue-500/30 shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 flex flex-col">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-4">{project.title}</h3>
+              <div key={project.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 border border-purple-500/30 shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 hover:scale-105 flex flex-col">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-4">{project.title}</h3>
                 <p className="text-gray-400 mb-6 flex-grow">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, idx) => (
-                    <Badge key={idx} className="bg-blue-500/10 border border-blue-500/30 text-blue-400">
+                    <Badge key={idx} className="bg-purple-500/10 border border-purple-500/30 text-purple-400">
                       {tech}
                     </Badge>
                   ))}
@@ -160,16 +160,16 @@ const PortfolioBold = () => {
                 <ul className="space-y-2 mb-6">
                   {project.highlights.map((highlight, i) => (
                     <li key={i} className="flex items-start space-x-2 text-sm">
-                      <div className="w-1 h-1 bg-blue-400 rounded-full mt-1.5 flex-shrink-0"></div>
+                      <div className="w-1 h-1 bg-purple-400 rounded-full mt-1.5 flex-shrink-0"></div>
                       <span className="text-gray-400">{highlight}</span>
                     </li>
                   ))}
                 </ul>
                 <div className="flex gap-4 mt-auto">
-                  <a href={project.link} className="text-blue-400 hover:text-blue-300 text-sm font-bold flex items-center">
+                  <a href={project.link} className="text-purple-400 hover:text-purple-300 text-sm font-bold flex items-center">
                     <ExternalLink size={16} className="mr-1" /> Demo
                   </a>
-                  <a href={project.github} className="text-blue-400 hover:text-blue-300 text-sm font-bold flex items-center">
+                  <a href={project.github} className="text-purple-400 hover:text-purple-300 text-sm font-bold flex items-center">
                     <Github size={16} className="mr-1" /> Code
                   </a>
                 </div>
