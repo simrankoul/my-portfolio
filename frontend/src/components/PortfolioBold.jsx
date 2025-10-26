@@ -109,7 +109,7 @@ const PortfolioBold = () => {
       </section>
 
       {/* Experience Section */}
-      <section id="experience" className="py-24 px-6 bg-gray-900/50">
+      <section id="experience" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Experience</h2>
           <div className="space-y-8">
