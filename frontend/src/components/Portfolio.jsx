@@ -258,7 +258,7 @@ const Portfolio = () => {
               <Card key={index} className="glass-card border-emerald-500/20 hover:border-emerald-500/40 transition-all duration-500 group">
                 <CardHeader>
                   <CardTitle className="text-2xl gradient-text flex items-center group-hover:scale-105 transition-transform duration-300">
-                    <Code2 size={24} className="mr-3 text-emerald-400" />
+                    <Target size={24} className="mr-3 text-emerald-400" />
                     {skillGroup.category}
                   </CardTitle>
                 </CardHeader>
