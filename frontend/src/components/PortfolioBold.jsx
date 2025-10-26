@@ -144,15 +144,15 @@ const PortfolioBold = () => {
       {/* Projects Section */}
       <section id="projects" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">Featured Projects</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Featured Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolioData.projects.map((project) => (
-              <div key={project.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 border border-emerald-500/30 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/20 transition-all duration-300 hover:scale-105 flex flex-col">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-4">{project.title}</h3>
+              <div key={project.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 border border-blue-500/30 shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 flex flex-col">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-4">{project.title}</h3>
                 <p className="text-gray-400 mb-6 flex-grow">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, idx) => (
-                    <Badge key={idx} className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400">
+                    <Badge key={idx} className="bg-blue-500/10 border border-blue-500/30 text-blue-400">
                       {tech}
                     </Badge>
                   ))}
@@ -160,16 +160,16 @@ const PortfolioBold = () => {
                 <ul className="space-y-2 mb-6">
                   {project.highlights.map((highlight, i) => (
                     <li key={i} className="flex items-start space-x-2 text-sm">
-                      <div className="w-1 h-1 bg-emerald-400 rounded-full mt-1.5 flex-shrink-0"></div>
+                      <div className="w-1 h-1 bg-blue-400 rounded-full mt-1.5 flex-shrink-0"></div>
                       <span className="text-gray-400">{highlight}</span>
                     </li>
                   ))}
                 </ul>
                 <div className="flex gap-4 mt-auto">
-                  <a href={project.link} className="text-emerald-400 hover:text-emerald-300 text-sm font-bold flex items-center">
+                  <a href={project.link} className="text-blue-400 hover:text-blue-300 text-sm font-bold flex items-center">
                     <ExternalLink size={16} className="mr-1" /> Demo
                   </a>
-                  <a href={project.github} className="text-emerald-400 hover:text-emerald-300 text-sm font-bold flex items-center">
+                  <a href={project.github} className="text-blue-400 hover:text-blue-300 text-sm font-bold flex items-center">
                     <Github size={16} className="mr-1" /> Code
                   </a>
                 </div>
