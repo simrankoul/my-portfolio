@@ -1,14 +1,14 @@
 export const portfolioData = {
   personal: {
-    name: "Alex Thompson",
-    title: "Project Coordinator & Manager",
+    name: "Simran Koul",
+    title: "Project Coordinator",
     tagline: "Orchestrating success through strategic planning and seamless team collaboration",
-    email: "alex.thompson@email.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
-    linkedin: "linkedin.com/in/alexthompson",
-    github: "github.com/alexthompson",
-    portfolio: "alexthompson.dev"
+    email: "simrankoul525@email.com",
+    phone: "+91 9779939097",
+    location: "Chandigarh, India",
+    linkedin: "https://www.linkedin.com/in/simrankoul",
+    github: "github.com/simrankoul"
+    /*portfolio: "alexthompson.dev" */
   },
   
   about: {
@@ -118,15 +118,14 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Business Administration",
-      institution: "University of California, Berkeley",
-      duration: "2015 - 2019",
-      details: "Major: Business Management, GPA: 3.8/4.0, Dean's List, Business Honor Society"
+      degree: "Bachelor of Engineering",
+      institution: "Chitkara University",
+      duration: "2016 - 2020",
+      details: "Major: Computer Science, GPA: 9.65/10.0"
     }
   ],
   
   certifications: [
-    "Project Management Professional (PMP)",
     "Certified Scrum Master (CSM)",
     "Agile Certified Practitioner (PMI-ACP)",
     "PRINCE2 Foundation Certified"
