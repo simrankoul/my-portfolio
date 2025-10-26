@@ -28,10 +28,10 @@ const PortfolioBold = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-lg z-50 border-b border-emerald-500/30">
+      <nav className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-lg z-50 border-b border-blue-500/30">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+            <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
               {portfolioData.personal.name}
             </div>
             <div className="hidden md:flex space-x-8">
@@ -39,7 +39,7 @@ const PortfolioBold = () => {
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-300 font-medium"
+                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium"
                 >
                   {item}
                 </button>
