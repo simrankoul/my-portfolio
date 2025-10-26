@@ -118,17 +118,18 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Bachelor of Business Administration",
       institution: "University of California, Berkeley",
       duration: "2015 - 2019",
-      details: "GPA: 3.8/4.0, Dean's List, Computer Science Honor Society"
+      details: "Major: Business Management, GPA: 3.8/4.0, Dean's List, Business Honor Society"
     }
   ],
   
   certifications: [
-    "AWS Certified Solutions Architect",
-    "Google Cloud Professional Developer",
-    "MongoDB Certified Developer"
+    "Project Management Professional (PMP)",
+    "Certified Scrum Master (CSM)",
+    "Agile Certified Practitioner (PMI-ACP)",
+    "PRINCE2 Foundation Certified"
   ]
 };
 
