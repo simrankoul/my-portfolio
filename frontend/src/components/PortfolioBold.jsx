@@ -312,7 +312,7 @@ const PortfolioBold = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-950 border-t border-purple-500/20 py-8 px-6">
+      <footer className="bg-black border-t border-purple-500/20 py-8 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 mb-4 md:mb-0">
