@@ -92,7 +92,7 @@ const PortfolioBold = () => {
       <section id="about" className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-black mb-12 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">About Me</h2>
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-purple-500/30 shadow-2xl">
+          <div className="bg-black rounded-3xl p-10 border border-purple-500/30 shadow-2xl shadow-purple-500/20">
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
               {portfolioData.about.summary}
             </p>
@@ -244,7 +244,7 @@ const PortfolioBold = () => {
             Interested in working together? Let's connect!
           </p>
           
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-purple-500/30 shadow-2xl">
+          <div className="bg-black rounded-3xl p-10 border border-purple-500/30 shadow-2xl shadow-purple-500/20">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label className="block text-sm font-bold text-purple-400 mb-3">Name</label>
