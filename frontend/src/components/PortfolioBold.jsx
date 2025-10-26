@@ -182,17 +182,17 @@ const PortfolioBold = () => {
       {/* Skills Section */}
       <section id="skills" className="py-24 px-6 bg-gray-900/50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Skills & Expertise</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Skills & Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {portfolioData.skills.map((skillGroup, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6 flex items-center">
-                  <Target size={24} className="mr-3 text-blue-400" />
+              <div key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-6 flex items-center">
+                  <Target size={24} className="mr-3 text-purple-400" />
                   {skillGroup.category}
                 </h3>
                 <div className="flex flex-wrap gap-3">
                   {skillGroup.items.map((skill, i) => (
-                    <Badge key={i} className="bg-blue-500/10 border border-blue-500/30 text-blue-400 hover:bg-blue-500/20 transition-colors px-4 py-2">
+                    <Badge key={i} className="bg-purple-500/10 border border-purple-500/30 text-purple-400 hover:bg-purple-500/20 transition-colors px-4 py-2">
                       {skill}
                     </Badge>
                   ))}
@@ -203,30 +203,30 @@ const PortfolioBold = () => {
 
           {/* Education & Certifications */}
           <div className="grid md:grid-cols-2 gap-8 mt-8">
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6 flex items-center">
-                <GraduationCap size={24} className="mr-3 text-blue-400" />
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-6 flex items-center">
+                <GraduationCap size={24} className="mr-3 text-purple-400" />
                 Education
               </h3>
               {portfolioData.education.map((edu) => (
                 <div key={edu.id}>
                   <p className="font-bold text-gray-200 text-lg mb-2">{edu.degree}</p>
                   <p className="text-gray-400 mb-1">{edu.institution}</p>
-                  <p className="text-blue-400 text-sm font-semibold mb-3">{edu.duration}</p>
+                  <p className="text-purple-400 text-sm font-semibold mb-3">{edu.duration}</p>
                   <p className="text-gray-400 text-sm">{edu.details}</p>
                 </div>
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6 flex items-center">
-                <Award size={24} className="mr-3 text-blue-400" />
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent mb-6 flex items-center">
+                <Award size={24} className="mr-3 text-purple-400" />
                 Certifications
               </h3>
               <ul className="space-y-3">
                 {portfolioData.certifications.map((cert, index) => (
-                  <li key={index} className="flex items-start space-x-3 p-3 bg-blue-500/10 rounded-xl border border-blue-500/20">
-                    <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <li key={index} className="flex items-start space-x-3 p-3 bg-purple-500/10 rounded-xl border border-purple-500/20">
+                    <div className="w-1.5 h-1.5 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span className="text-gray-300">{cert}</span>
                   </li>
                 ))}
@@ -239,70 +239,70 @@ const PortfolioBold = () => {
       {/* Contact Section */}
       <section id="contact" className="py-24 px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-8 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Get In Touch</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-8 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Get In Touch</h2>
           <p className="text-xl text-gray-300 mb-12">
             Interested in working together? Let's connect!
           </p>
           
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-blue-500/30 shadow-2xl">
+          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-10 border border-purple-500/30 shadow-2xl">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label className="block text-sm font-bold text-blue-400 mb-3">Name</label>
+                <label className="block text-sm font-bold text-purple-400 mb-3">Name</label>
                 <input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-5 py-4 bg-gray-900/50 border border-blue-500/30 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 text-white transition-all"
+                  className="w-full px-5 py-4 bg-gray-900/50 border border-purple-500/30 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 text-white transition-all"
                   placeholder="Your name"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-blue-400 mb-3">Email</label>
+                <label className="block text-sm font-bold text-purple-400 mb-3">Email</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-5 py-4 bg-gray-900/50 border border-blue-500/30 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 text-white transition-all"
+                  className="w-full px-5 py-4 bg-gray-900/50 border border-purple-500/30 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 text-white transition-all"
                   placeholder="your.email@example.com"
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-blue-400 mb-3">Message</label>
+                <label className="block text-sm font-bold text-purple-400 mb-3">Message</label>
                 <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
                   required
                   rows={5}
-                  className="w-full px-5 py-4 bg-gray-900/50 border border-blue-500/30 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 text-white transition-all resize-none"
+                  className="w-full px-5 py-4 bg-gray-900/50 border border-purple-500/30 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 text-white transition-all resize-none"
                   placeholder="Tell me about your opportunity..."
                 />
               </div>
               <Button 
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white py-6 text-lg rounded-xl font-bold shadow-2xl shadow-blue-500/50 transition-all duration-300 hover:scale-105"
+                className="w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white py-6 text-lg rounded-xl font-bold shadow-2xl shadow-purple-500/50 transition-all duration-300 hover:scale-105"
               >
                 <Send size={20} className="mr-2" />
                 Send Message
               </Button>
             </form>
 
-            <div className="mt-10 pt-10 border-t border-blue-500/20">
+            <div className="mt-10 pt-10 border-t border-purple-500/20">
               <div className="grid md:grid-cols-3 gap-6 text-center">
-                <div className="p-4 bg-blue-500/10 rounded-xl border border-blue-500/20">
-                  <Mail className="mx-auto mb-3 text-blue-400" size={28} />
+                <div className="p-4 bg-purple-500/10 rounded-xl border border-purple-500/20">
+                  <Mail className="mx-auto mb-3 text-purple-400" size={28} />
                   <p className="text-sm text-gray-300">{portfolioData.personal.email}</p>
                 </div>
-                <div className="p-4 bg-blue-500/10 rounded-xl border border-blue-500/20">
-                  <MapPin className="mx-auto mb-3 text-blue-400" size={28} />
+                <div className="p-4 bg-purple-500/10 rounded-xl border border-purple-500/20">
+                  <MapPin className="mx-auto mb-3 text-purple-400" size={28} />
                   <p className="text-sm text-gray-300">{portfolioData.personal.location}</p>
                 </div>
-                <div className="p-4 bg-blue-500/10 rounded-xl border border-blue-500/20">
-                  <Briefcase className="mx-auto mb-3 text-blue-400" size={28} />
+                <div className="p-4 bg-purple-500/10 rounded-xl border border-purple-500/20">
+                  <Briefcase className="mx-auto mb-3 text-purple-400" size={28} />
                   <p className="text-sm text-gray-300">Available now</p>
                 </div>
               </div>
@@ -312,20 +312,20 @@ const PortfolioBold = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-950 border-t border-blue-500/20 py-8 px-6">
+      <footer className="bg-gray-950 border-t border-purple-500/20 py-8 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 mb-4 md:mb-0">
               © 2025 {portfolioData.personal.name}. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <a href={`mailto:${portfolioData.personal.email}`} className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href={`mailto:${portfolioData.personal.email}`} className="text-gray-400 hover:text-purple-400 transition-colors">
                 <Mail size={20} />
               </a>
-              <a href={`https://${portfolioData.personal.github}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href={`https://${portfolioData.personal.github}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href={`https://${portfolioData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href={`https://${portfolioData.personal.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
