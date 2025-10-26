@@ -14,8 +14,24 @@ const PortfolioBold = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Message sent! (This is a demo)');
-    setFormData({ name: '', email: '', message: '' });
+    
+    // Create FormData object for Netlify
+    const form = e.target;
+    const formDataObj = new FormData(form);
+    
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formDataObj).toString()
+    })
+      .then(() => {
+        alert('Message sent successfully! I will get back to you soon.');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        alert('Oops! Something went wrong. Please try emailing me directly.');
+        console.error(error);
+      });
   };
 
   const scrollToSection = (sectionId) => {
