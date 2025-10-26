@@ -182,17 +182,17 @@ const PortfolioBold = () => {
       {/* Skills Section */}
       <section id="skills" className="py-24 px-6 bg-gray-900/50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">Skills & Expertise</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Skills & Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {portfolioData.skills.map((skillGroup, index) => (
-              <div key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-emerald-500/30 shadow-xl">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-6 flex items-center">
-                  <Target size={24} className="mr-3 text-emerald-400" />
+              <div key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6 flex items-center">
+                  <Target size={24} className="mr-3 text-blue-400" />
                   {skillGroup.category}
                 </h3>
                 <div className="flex flex-wrap gap-3">
                   {skillGroup.items.map((skill, i) => (
-                    <Badge key={i} className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/20 transition-colors px-4 py-2">
+                    <Badge key={i} className="bg-blue-500/10 border border-blue-500/30 text-blue-400 hover:bg-blue-500/20 transition-colors px-4 py-2">
                       {skill}
                     </Badge>
                   ))}
@@ -203,30 +203,30 @@ const PortfolioBold = () => {
 
           {/* Education & Certifications */}
           <div className="grid md:grid-cols-2 gap-8 mt-8">
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-emerald-500/30 shadow-xl">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-6 flex items-center">
-                <GraduationCap size={24} className="mr-3 text-emerald-400" />
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6 flex items-center">
+                <GraduationCap size={24} className="mr-3 text-blue-400" />
                 Education
               </h3>
               {portfolioData.education.map((edu) => (
                 <div key={edu.id}>
                   <p className="font-bold text-gray-200 text-lg mb-2">{edu.degree}</p>
                   <p className="text-gray-400 mb-1">{edu.institution}</p>
-                  <p className="text-emerald-400 text-sm font-semibold mb-3">{edu.duration}</p>
+                  <p className="text-blue-400 text-sm font-semibold mb-3">{edu.duration}</p>
                   <p className="text-gray-400 text-sm">{edu.details}</p>
                 </div>
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-emerald-500/30 shadow-xl">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-6 flex items-center">
-                <Award size={24} className="mr-3 text-emerald-400" />
+            <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-6 flex items-center">
+                <Award size={24} className="mr-3 text-blue-400" />
                 Certifications
               </h3>
               <ul className="space-y-3">
                 {portfolioData.certifications.map((cert, index) => (
-                  <li key={index} className="flex items-start space-x-3 p-3 bg-emerald-500/10 rounded-xl border border-emerald-500/20">
-                    <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <li key={index} className="flex items-start space-x-3 p-3 bg-blue-500/10 rounded-xl border border-blue-500/20">
+                    <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span className="text-gray-300">{cert}</span>
                   </li>
                 ))}
