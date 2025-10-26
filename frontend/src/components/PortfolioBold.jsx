@@ -114,7 +114,7 @@ const PortfolioBold = () => {
           <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Experience</h2>
           <div className="space-y-8">
             {portfolioData.experience.map((exp) => (
-              <div key={exp.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-purple-500/30 shadow-xl hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 hover:scale-[1.02]">
+              <div key={exp.id} className="bg-black rounded-3xl p-8 border border-purple-500/30 shadow-xl hover:shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 hover:scale-[1.02]">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">{exp.role}</h3>
