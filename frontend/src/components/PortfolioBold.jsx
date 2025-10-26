@@ -261,7 +261,13 @@ const PortfolioBold = () => {
           </p>
           
           <div className="bg-black rounded-3xl p-10 border border-purple-500/30 shadow-2xl shadow-purple-500/20">
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} name="portfolio-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="space-y-6">
+              {/* Hidden fields for Netlify */}
+              <input type="hidden" name="form-name" value="portfolio-contact" />
+              <div style={{ display: 'none' }}>
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </div>
+              
               <div>
                 <label className="block text-sm font-bold text-purple-400 mb-3">Name</label>
                 <input
