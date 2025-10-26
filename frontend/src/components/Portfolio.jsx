@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
-import { Mail, Github, Linkedin, MapPin, ExternalLink, Briefcase, GraduationCap, Award, Code2, Send, Sparkles, Zap } from 'lucide-react';
+import { Mail, Github, Linkedin, MapPin, ExternalLink, Briefcase, GraduationCap, Award, Target, Send, Sparkles, Zap } from 'lucide-react';
 import portfolioData from '../mock';
 
 const Portfolio = () => {
