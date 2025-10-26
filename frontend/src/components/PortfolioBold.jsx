@@ -180,7 +180,7 @@ const PortfolioBold = () => {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-24 px-6 bg-gray-900/50">
+      <section id="skills" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">Skills & Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
