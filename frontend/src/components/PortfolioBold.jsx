@@ -111,16 +111,16 @@ const PortfolioBold = () => {
       {/* Experience Section */}
       <section id="experience" className="py-24 px-6 bg-gray-900/50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">Experience</h2>
+          <h2 className="text-5xl md:text-6xl font-black mb-16 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Experience</h2>
           <div className="space-y-8">
             {portfolioData.experience.map((exp) => (
-              <div key={exp.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-emerald-500/30 shadow-xl hover:shadow-2xl hover:shadow-emerald-500/20 transition-all duration-300 hover:scale-[1.02]">
+              <div key={exp.id} className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 border border-blue-500/30 shadow-xl hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-[1.02]">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">{exp.role}</h3>
+                    <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">{exp.role}</h3>
                     <p className="text-xl text-gray-300 mt-2 font-semibold">{exp.company}</p>
                   </div>
-                  <div className="text-emerald-400 text-sm font-bold bg-emerald-500/10 px-4 py-2 rounded-full border border-emerald-500/30">{exp.duration}</div>
+                  <div className="text-blue-400 text-sm font-bold bg-blue-500/10 px-4 py-2 rounded-full border border-blue-500/30">{exp.duration}</div>
                 </div>
                 <div className="flex items-center text-gray-400 text-sm mb-4">
                   <MapPin size={16} className="mr-1" />
@@ -130,7 +130,7 @@ const PortfolioBold = () => {
                 <ul className="space-y-3">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="flex items-start space-x-3">
-                      <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full mt-2 flex-shrink-0"></div>
+                      <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-gray-300">{achievement}</span>
                     </li>
                   ))}
