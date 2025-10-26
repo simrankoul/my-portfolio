@@ -51,18 +51,18 @@ const PortfolioBold = () => {
 
       {/* Hero Section */}
       <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-transparent to-teal-500/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-cyan-500/10"></div>
         <div className="max-w-5xl text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 rounded-full mb-8">
-            <Rocket size={18} className="text-emerald-400" />
-            <span className="text-emerald-400 font-semibold">Open to New Opportunities</span>
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 border border-blue-500/30 rounded-full mb-8">
+            <Rocket size={18} className="text-blue-400" />
+            <span className="text-blue-400 font-semibold">Open to New Opportunities</span>
           </div>
           
           <h1 className="text-7xl md:text-9xl font-black mb-6 leading-none bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
             {portfolioData.personal.name}
           </h1>
           
-          <p className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent">
+          <p className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-cyan-400 to-sky-400 bg-clip-text text-transparent">
             {portfolioData.personal.title}
           </p>
           
@@ -73,7 +73,7 @@ const PortfolioBold = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <Button 
               onClick={() => scrollToSection('projects')}
-              className="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white px-10 py-7 text-lg rounded-xl font-bold shadow-2xl shadow-emerald-500/50 transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-10 py-7 text-lg rounded-xl font-bold shadow-2xl shadow-blue-500/50 transition-all duration-300 hover:scale-105"
             >
               <Sparkles size={20} className="mr-2" />
               Explore My Work
