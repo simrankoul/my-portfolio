@@ -2,7 +2,7 @@ export const portfolioData = {
   personal: {
     name: "Simran Koul",
     title: "Project Coordinator",
-    tagline: "Orchestrating success through strategic planning and seamless team collaboration",
+    tagline: "Bridging the gap between project teams and stakeholders through clear communication.",
     email: "simrankoul525@email.com",
     phone: "+91 9779939097",
     location: "Chandigarh, India",
